@@ -18,3 +18,10 @@ This is a Theory-Oriented Problem:
         - Example: This paper gives an explicit expression for an estimator's expected value in terms of the covariance function. 
     - Formulate (but you dont have to solve) A few research problems that may be derived from this work
 
+Library of programs: 
+1. Black scholes for European Options 
+2. Binomial Optiion pricing model for pricing options. 
+    - Binomial Option pricing model values options using an interative approach for American Options 
+    - There are 2 kinds of possible outcomes with each iteration, a move up or down that follow a binomial tree. 
+    - The model is  used more than the black scholes model. 
+    - Essentially get the probability that the stock will move up or down from simulations then use that in a binomial tree over different periods
